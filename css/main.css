@@ -106,10 +106,6 @@ header, footer{
   flex-flow: row wrap;
 }
 
-/* Header styles*/
-header{
-
-}
 
 header .content-wrapper{
   display: flex;
@@ -118,9 +114,6 @@ header .content-wrapper{
   flex-flow: row wrap;
 }
 
-header .header-divider{
-
-}
 
 header nav {
   display: flex;
@@ -130,9 +123,22 @@ header nav {
 }
 
 header nav ul{
-
+  display: flex;
+  justify-content: space-around;
 }
 
+footer .social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer .social-icons p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*---------------- Mobile Styles - Homepage--------------*/
 
@@ -140,7 +146,6 @@ header nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
 }
 
 
@@ -155,6 +160,12 @@ aside{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.features .features-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -162,7 +173,6 @@ aside{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
 }
 
 
