@@ -114,6 +114,9 @@ header .content-wrapper{
   flex-flow: row wrap;
 }
 
+header .header-divider{
+  width: 100%;
+}
 
 header nav {
   display: flex;
@@ -125,6 +128,12 @@ header nav {
 header nav ul{
   display: flex;
   justify-content: space-around;
+  list-style: none;
+}
+
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons{
@@ -132,7 +141,6 @@ footer .social-icons{
   justify-content: center;
   align-items: center;
 }
-
 
 footer .social-icons p{
   display: flex;
@@ -146,6 +154,8 @@ footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 89%;
+  margin: 0 20px;
 }
 
 
@@ -154,12 +164,20 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px;
 }
+
 
 .features{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.features .content-wrapper{
+  width: 89%:;
+  margin: 0 20px;
 }
 
 .features .features-items{
@@ -173,16 +191,20 @@ aside{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 89%;
+  margin: 0 20px;
 }
 
 
 /*---------------- Mobile Styles - About--------------*/
 
-.misstion{
+.mission{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px;
 }
 
 .contact-section{
@@ -190,6 +212,8 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px;
 }
 
 /*---------------- Mobile Styles - FAQ--------------*/
@@ -199,6 +223,8 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px;
 }
 
 .faq-content{
@@ -206,6 +232,8 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px;
 }
 
 
